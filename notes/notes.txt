@@ -1,0 +1,28 @@
+Intro to Web Accessibility
+    - Accessibility is often abbreviated to A11y, or Ally
+    - The 11 in the middle represents the number of characters between the letters A and Y
+
+What is Accessibility
+    - Accessibility is the practice of making a product that is usable by everyone, with or without disabilities
+    - Accessibility is often confused with Usability but the main difference is that accessibility is focused more on people with disabilities
+    - A product that's designed, developed, and tested with accessibility in mind will have more users than a product that is not accessible
+    - There is more pressure on businesses to make applications accessible
+    - Websites and mobile apps should be designed with accessibility in mind
+    - Accessibility issues can cost loss of users, which in turn, loss of money to the business
+
+Web Content Accessibility Guidelines 2.0
+    - The World Wide Web Consortium has come up with the Web Content Accessibility Guidelines
+        - This provides a list of guidelines and recommendations on how to make your website more accessible
+    - Version 2.0, which was published on December 2008, contains a set of rules which were grouped under four categories - perceivable, operable, understandable, and robust
+        - This is abbreviated to the acronym POUR
+        - Perceivable
+            - Perceivable means that the information should be presented to your users in different means
+            - Some users may have sense difficulties eg visual impairment which makes them reliant on assistive technology eg Screen Readers
+        - Operable
+            - Operable refers to the principle that your users must be able to operate your website by using different means
+            - Some users may have motor skills difficulties which means that they may struggle using a mouse and will need to use a keyboard
+        - Understandable
+        - Robust
+    - In June 2018, version 2.1 was published to cover mobile accessibility, people with low vision and cognitive and learning abilities
+        - It's an extension to version 2.0, so other things guidelines from 2.0 will also apply in 2.1
+    -
