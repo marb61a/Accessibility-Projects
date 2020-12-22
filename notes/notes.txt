@@ -22,7 +22,24 @@ Web Content Accessibility Guidelines 2.0
             - Operable refers to the principle that your users must be able to operate your website by using different means
             - Some users may have motor skills difficulties which means that they may struggle using a mouse and will need to use a keyboard
         - Understandable
+            - Understandable means making sure that users can understand the information presented to them when using your website
+            - Clear instructions should be provided as well as clear error messages to allow for understanding and fixing mistakes 
         - Robust
+            - Robust refers to making sure that your website must be used by your users when they use third-party assistive technologies, even if the technology advances
+            - This can be done by enforcing and adhering to standards eg HTML structure
     - In June 2018, version 2.1 was published to cover mobile accessibility, people with low vision and cognitive and learning abilities
         - It's an extension to version 2.0, so other things guidelines from 2.0 will also apply in 2.1
+        - With this version there is a need for a website to be accessible in both portrait and landscape mode
+        - If for instance there are animations present on a site they should be able to be turned off
+        - There is also a need for being able to zoom or enlarge text for people with visual issues
+
+WCAG 2.1 Conformance Levels
+    - Within the Web Content Accessibility Guidelines, each of the guidelines under 2.0 and 2.1 have a success criteria
+    - This is defined through the three conformance levels that businesses or companies should conform to
+        - Level A is the most basic conformance and through each level A, you must achieve 25 criteria from the accessibility guidelines
+        - Level AA is mid range and through each level AA, apart from achieving 25 criteria from level A, you also need to achieve 13 new criteria on this level
+        - Level AAA is the final and highest level meaning that you need to achieve the previous two levels, as well as another 23 criteria on top
+    - As a starting point, it's a great start to make your website conform to level A, and then work your way through level AA to include more users
+        - It is not manditory to reach AAA as this is targeted to specialist Websites
+        - The recommended level is level AA, and this is the level that most teams are aiming to meet
     -
