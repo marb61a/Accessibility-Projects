@@ -42,4 +42,24 @@ WCAG 2.1 Conformance Levels
     - As a starting point, it's a great start to make your website conform to level A, and then work your way through level AA to include more users
         - It is not manditory to reach AAA as this is targeted to specialist Websites
         - The recommended level is level AA, and this is the level that most teams are aiming to meet
-    -
+
+Why Accessibility Testing is Important
+    - Accessibility testing is the right thing to do
+        - This is true of both individuals and society
+        - Empathy will allow for better understanding of issues faced by people and will lead to improved products
+    - Better accessibility means better user experience
+        - Poor accessibility will usually lead to poor User Experience (UX) for some users
+        - Oftentimes, accessibility testing is often seen as an afterthought, only after a product has been deployed to production
+        - Good functionality does not mean good accessibility
+    - Better accessibility also means that you widen your reach to other audiences
+        - Try to have products that reach people with disabilities this benefits both customers and businesses
+        - he law on accessibility differs from one country to another, so it’s best to check the regulations in a country first
+
+ How can automated accessibility tests help us
+    - Automating some tests makes sense given the amount of different accessibility checks that we need to do
+        - By automating some of the accessibility tests basic accessibility issues can be caught earlier on in the development process
+        - This can also serve as a living documentation to your team
+    - Another benefit is it will prevent any regression issues related to accessibility from being deployed to production
+        - By having automated tests in place it prevents fixed issues being redeployed to production
+    - 
+
