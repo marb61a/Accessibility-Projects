@@ -61,5 +61,29 @@ Why Accessibility Testing is Important
         - This can also serve as a living documentation to your team
     - Another benefit is it will prevent any regression issues related to accessibility from being deployed to production
         - By having automated tests in place it prevents fixed issues being redeployed to production
-    - 
+    - Automating tests frees up your time to do more complex testing activities
+        - Automated accessibility tests will only catch a subset of the accessibility issues  that can occur
+        - It is still beneficial to have them because it will help us speed up our testing process and they are cheap to run
+    - Having automated accessibility tests provides a fast feedback loop to your design and development team
+        - This is especially true if the tests are running as part of your continuous integration pipeline
+        - The development team will know in an instant if the feature that they are working on has broken any accessibility rules
 
+The importance of doing accessibility testing with actual users
+    - Nothing beats actual accessibility testing with real users
+    - Automating tests is good but there’s still a lot of benefit to gain if you invite real users with disabilities to test your website
+    - The reason being is that they probably use different third party assistive technologies
+        - This way there is first hand understanding on how a product is used day to day 
+    - It may be a good idea to get them involved when your team is designing and developing a new feature
+    - Doing accessibility testing with real users as well as doing an evaluation checklist
+        - This can be achieved with having automated accessibility tests and checking it
+        - It the best approach to ensuring that a site or app is accessible to users with different disabilities
+    - Diving into accessibility testing can be challenging
+
+Web Accessibility Test checks
+    - Doing accessibility testing can be overwhelming, especially if it has not been done before
+    - There are a lot of guidelines available to help get started
+    - World Wide Web Consortium or W3C has created the web accessibility initiative which contains resources to help make a website or app more accessible
+        - https://www.w3.org/WAI/
+        - They provide Easy Checks to help get started
+        - https://www.w3.org/WAI/test-evaluate/preliminary/
+    -
