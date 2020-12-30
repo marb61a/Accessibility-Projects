@@ -135,3 +135,27 @@ Tips on doing accessibility testing
         - Start testing on a basic page
         - Use the keyboard much more regularly
         - Try and experiment with screen readers
+
+Tools Requiring Human Assistance
+    - It is advisable to categorise tools into 3 different categories
+        - Tools which require human assistance
+        - Semi-automated tools in the form of browser extensions
+        - Automated tools which you can add in your code base, and run as part of your CI pipeline
+
+ Tools which require human assistance
+    - The first testing tool when testing accessibility is the keyboard
+    - Keyboard shortcuts are not only time savers but are very useful in testing
+        - Windows accessibility shortcuts are available at the following url
+            - https://support.microsoft.com/en-us/windows/windows-keyboard-shortcuts-for-accessibility-021bcb62-45c8-e4ef-1e4f-41b8c1fc87fd
+        - Web accessibility shortcuts are available at
+            - https://webaim.org/techniques/keyboard/accesskey
+    - Try to navigate a favourite site using a keyboard and shortcuts
+
+Screen Readers
+    - A screen reader allows people with disabilities - specifically those who have visual impairments - to use a computer
+    - It translates everything a user normally sees on their screen to speech
+    - There are a lot of screen readers available including
+        - VoiceOver -- Already installed on a MAC and just needs to be enabled
+        - NVDA and JAWS are the two most popular screen readers out there for Windows
+            - NVDA is a free tool, while JAWS is a commercial one
+        - The TalkBack screen reader is available on the Android platform
