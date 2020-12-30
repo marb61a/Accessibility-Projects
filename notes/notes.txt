@@ -158,4 +158,25 @@ Screen Readers
         - VoiceOver -- Already installed on a MAC and just needs to be enabled
         - NVDA and JAWS are the two most popular screen readers out there for Windows
             - NVDA is a free tool, while JAWS is a commercial one
+            - https://www.nvaccess.org/
+            - https://www.freedomscientific.com/products/software/jaws/
         - The TalkBack screen reader is available on the Android platform
+            - https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=en_IE&gl=US
+    - Screen readers demonstrate why it's important to use the correct heading structure, the correct labels, and descriptions
+        - This is because the screen reader will read these aloud
+        - An impact of not having alternative text is that the description will not make sense to people using screen readers
+        - If users zoom on a site ensure that the elements are stacking up nicely, and not on top of one another
+
+Semi Automated Accessibility Testing Tools
+Axe
+    - The axe browser extension is one tool that is based on the axe-core library
+        - https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd
+    - Once installed, just right-click, click Inspect, and then click on the "axe" tab
+        - Then, click on the Analyze button, and afterwards you are shown this accessibility report
+    - Violations are grouped, and then it also shows the number of occurrences for each of the violations that have occurred
+
+Wave
+    - WAVE is similar to AXE as it is another free tool that you can use that lets you run accessibility checks with their Chrome and browser extensions
+        - https://wave.webaim.org/extension/
+    - When installed, right-click and then select WAVE
+    - 
