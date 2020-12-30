@@ -108,4 +108,30 @@ Checks That Can Be Automated
         - This is particularly helpful for using screen readers
 
 Checks That Need To Be Tested
-    - 
+    - Automated tools are there to help you detect if these attributes are present
+    - However although a title attribute may be present it must make sense
+    - There are similar rules for using image text alternatives
+        - This attribute can be added but it has to make sense especially when it's being used by a screen reader
+    - Heading structure should be tested with a keyboard to ensure that it makes sense
+    - With the HTML structure, you still need to use your keyboard to test that the structure makes sense when accessing it with your keyboard only
+    - With ARIA labels there should be a screen reader used to determine if the label name provided makes sense
+        - This should give more meaning to the element being focused on
+    - Human intervention is still very much needed if doing accessibility testing
+    - If a site uses forms ensure that there is feedback provided whenever users submit the form or make mistakes
+        - These messages should be very clear and easy to understand
+    - Using embedded videos on a site means having clear subtitles that represent the video well
+        - When using audio or video control of volume is very important 
+    - When using animations there should be the user control so that they may turn them off if necessary
+    - A keyboard will be needed to perform some checks
+        - This makes it a very valuable tool in accessibility testing
+    - Responsive site layouts are another tricky area
+        - If a user is using a mobile device to access the site is the mobile version of the site showing
+
+Tips on doing accessibility testing
+    - There are a lot of checks to be done so have a plan in place
+    - There are some tips to bear in mind
+        - Decide within the team what Web Content Accessibility Guideline level you want to achieve
+        - Get involved with the UX team and collaborate
+        - Start testing on a basic page
+        - Use the keyboard much more regularly
+        - Try and experiment with screen readers
