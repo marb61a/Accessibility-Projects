@@ -86,4 +86,26 @@ Web Accessibility Test checks
         - https://www.w3.org/WAI/
         - They provide Easy Checks to help get started
         - https://www.w3.org/WAI/test-evaluate/preliminary/
-    -
+
+Checks That Can Be Automated
+    - There are different accessibility rules that can be covered by an automated tool
+    - Detecting if a page doesn't have a page title
+        - Page title is important because this is the first thing that the screen reader says when a user visits your page
+        - Without a page title can cause confusion with multiple tabs open
+    - Another check that can be automated is image text alternatives
+        - An automated accessibility testing tool can check if images have the alt text attribute
+        - Users with visual impairments rely on alt texts to help them understand images that they may not be able to see
+    - More checks that can be automated are ensuring correct heading structure and if there are any missing heading elements
+        - It is a recommendation that a page have at least 1 heading
+        - Having a good heading structure helps out on how your page will be accessed using keyboard only
+    - A similar check to previous is checking colour contrast
+        - An accessibility tool can help detect colour contrast issues and can report on these
+        - This is very helpful for users with visual impairments who will have reading issues if there is not enough contrast between text and background
+    - An automated tool can be used to detect errors in your HTML structure
+        - This means checking for missing required elements or missing element attributes
+    - An automated tool can also report issues related to missing ARIA labels that are required
+        - The aria-label attribute is used as a label to elements where the label is not visible on the screen
+        - This is particularly helpful for using screen readers
+
+Checks That Need To Be Tested
+    - 
