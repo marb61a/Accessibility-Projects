@@ -179,4 +179,23 @@ Wave
     - WAVE is similar to AXE as it is another free tool that you can use that lets you run accessibility checks with their Chrome and browser extensions
         - https://wave.webaim.org/extension/
     - When installed, right-click and then select WAVE
-    - 
+    - This also generates a report which shows a breakdown of accessibility errors
+        - It also shows accessibility features, structural elements, and also includes how many ARIA labels the page has
+        - You can also inspect color contrast issues within WAVE
+        - For a color contrast rule to pass, normal text should have a ratio of at least 4.5:1 foreground to background ratio, and at least 3:1 for large text
+
+Google Lighthouse
+    - This is already built in to Chrome if using a newer version, it also includes accessibility checks
+        - This accessibility feature actually axe-core as its engine
+        - To run Lighthouse, just open up developer tools and then find the Lighthouse tab
+        - A report can also be generated which gives these different scores and clicking on accessibility will redirect you to the accessibility section
+        - Only a subset of issues can be automatically detected, so it encourages the importance of not relying on it entirely
+
+Automated Accessibility Testing Tools
+Axe-Core
+    - Axe-Core is one of the most popular automated accessibility testing tools out there is Axe-Core
+    - If there is a need to programmatically catch accessibility issues, then you can use different libraries that are based on Axe-Core
+    - Axe-Core's philosophy is to empower developers, and also software testers, to think about accessibility by integrating automated tests as early on as possible
+    - There are a lot of projects which are built on Axe-Core
+    - Axe-Core can also integrate into your testing tools of choice, such as Jest for unit testing, Cypress, Selenium, with Java, C#, and Python, WebdriverIO, and even TestCafe
+    - All previously mentioned tools are meant to assist human testers not replace them
