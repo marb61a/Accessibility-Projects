@@ -199,3 +199,26 @@ Axe-Core
     - There are a lot of projects which are built on Axe-Core
     - Axe-Core can also integrate into your testing tools of choice, such as Jest for unit testing, Cypress, Selenium, with Java, C#, and Python, WebdriverIO, and even TestCafe
     - All previously mentioned tools are meant to assist human testers not replace them
+
+Axe-Cli
+    - This can quickly catch basic accessibility issues from an application
+    - As a prerequisite, in order to install Axe-CLI, you need to have Node and NPM installed on your machine
+    - To install use the following command
+        - npm install -g axe-cli
+        - This does not add an entry to the package.json file
+    - To run from the command line
+        - axe <url>
+    - By default tests are ran on headless Chrome
+        - It must be noted that although Axe may not find an issue it does not mean a site is fully accessible
+    - To run tests on a browser
+        - axe <url> --browser chrome
+            - !!! Running on firefox may need additional software  
+        - This may run into errors from popups related to cookies
+    - Multiple URL's may be tested as long as they are separated by comma
+    - Use the --disable flag to disable a parameter
+    - Test results can also be output to a JSON file
+        - axe <url> --browser chrome --save test-results.json
+
+Setting Up Cypress
+    -
+    
