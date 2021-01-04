@@ -220,5 +220,27 @@ Axe-Cli
         - axe <url> --browser chrome --save test-results.json
 
 Setting Up Cypress
-    -
+    - As a prerequisite, in order to install Cypress, you need to have Node and NPM installed 
+    - To check node version use the following command
+        - node -v
+    - To create a new project directory from the command line
+        - mkdir <project name> and then cd <project name> to go into that directory
+    - To initialise npm in the project use the following command
+        - npm init
+        - Using the -y flag will accept defaults for questions that npm init would ask
+    - To add packages use the following command
+        - npm install <package> or npm i <package>
+        - To install a specific version use the <package>@<number> command
+        - Using -D or save-dev with npm will save the package entry to the devdependencies section of package.json
+    - Use npx is a shortcut to execute a command
+        - It may also work in situations where npm will not
+    - Cypress comes built in with a predefined folder structure to get started right away
+        - npx cypress open has to be ran to generate the cypress folder
+        - node_modules\.bin\cypress open is the alternative
+
+Cypress
+    - cy.visit              --> Visits a page/application
+    - cy.injectAxe          --> Inject the axe-core runtime, must be after visiting the test page
+    - cy.checkA11y          --> Can also be cy.checkAccessibility and scans for any accessibility issues 
+    
     
