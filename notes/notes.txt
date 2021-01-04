@@ -242,5 +242,26 @@ Cypress
     - cy.visit              --> Visits a page/application
     - cy.injectAxe          --> Inject the axe-core runtime, must be after visiting the test page
     - cy.checkA11y          --> Can also be cy.checkAccessibility and scans for any accessibility issues 
-    
+
+Understanding Accessibility Failures
+    - Cypress Axe provides a lot of information on violations
+    - This is done by opening the Developer Tools Console
+        - right click on any part of the Test Runner and click "Inspect"
+    - Click on each of the pinned errors to see them in the Console
+    - There is a url given which will show what needs to be done to fix the error for example
+        - https://dequeuniversity.com/rules/axe/3.4/color-contrast?application=axeAPI
+
+Testing Specific Elements With Cypress Axe
+    - By default, Cypress-Axe will scan the DOM structure of your full page
+        - Most of the time this will be the right approach as you will want to detect errors on the whole page
+    - There are some cases where this will not be the right approach
+        - This can be when elements are still in development and need input to make accessible
+        - Ignoring these elements maybe the best choice at this point
+        - By ignoring them Axe will not scan these elements against any of the accessibility rules
+        - This should really be a last resort and should be traceable
+    - There are two ways to test specific elements in Cypress-Axe
+        - The first option is to exclude certain elements on the page
+        - The second option is to only check a specific element on the page
+    - A beforeEach hook which will get executed before each of the tests
+        - The can help reduce code duplication and improve maintainability
     
