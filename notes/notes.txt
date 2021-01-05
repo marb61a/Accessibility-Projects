@@ -264,4 +264,25 @@ Testing Specific Elements With Cypress Axe
         - The second option is to only check a specific element on the page
     - A beforeEach hook which will get executed before each of the tests
         - The can help reduce code duplication and improve maintainability
-    
+
+Disabling Axe Rules With Cypress Axe
+    - This can be from a similar scenario to above where components are still under development
+    - !!! Only about 20 to 40% of accessibility errors are caught by automated tasks
+    - Another scenario for disabling rules maybe that testing is being done on the component level
+        - For example in the scenario there is a text component which doesn't have a heading 1 tag
+        - The rule page-has-heading-one can be disabled
+    - Again always use this approach with caution
+    - To exclude elements, all you need to do is pass in an object with the property exclude
+        - To exclude a list of elements pass the list in as an array
+    - Cypress-Axe has an option to set the includedImpacts, which accepts an array of strings that maps to a level of severity
+        - These include critical and serious
+        - Only rules that meet these criteria will be reported
+        - This can be useful when prioritizing what violations to fix first 
+    - Certain rules can also be excluded regardless of impact
+        - Pass in the rule name and set the enabled property to false
+
+Applitools
+    - Applitools Contrast Advisor is another tool for checking violations
+        - https://applitools.com/docs/features/contrast-accessibility.html
+        - Applitools also does cross-browser visual validation testing
+    - 
