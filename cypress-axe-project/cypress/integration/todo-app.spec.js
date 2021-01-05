@@ -24,4 +24,18 @@ describe('Todo application', () => {
         cy.checkA11y('.learn');
     });
     
+    it("Should only include rules with serious and critical inpacts", () => {
+        cy.checkA11y(null, {
+            includedInpacts: ['critical', 'serious']
+        });
+    });
+
+    it("should exclude specific accessibility rules", () => {
+        cy.checkA11y(null, {
+            rules: {
+                "color-contrast": { enabled: false },
+            }
+        });
+    });
+
 });
