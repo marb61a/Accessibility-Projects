@@ -285,4 +285,22 @@ Applitools
     - Applitools Contrast Advisor is another tool for checking violations
         - https://applitools.com/docs/features/contrast-accessibility.html
         - Applitools also does cross-browser visual validation testing
-    - 
+    - With Contrast Advisor, you can validate contrast issues with text and non-text elements such as graphics and images
+        - Why is there a need for another tool
+        - There are tools to test the color contrast of text elements, but there are no viable solutions to test for contrast in images and native mobile applications
+        - The web content accessibility guidelines have different rules for minimum and enhanced contrast ratios and this includes graphics and user interface components
+        - The problem is that existing tools  cannot detect these violations
+    - To install Applitools Eyes-Cypress package as a dev-dependency
+        - npm i -D @applitools/eyes-cypress@3.13.4
+    - After installation it must be setup by running the following command
+        - npx eyes-setup 
+        - This will create all the required files and additional code automatically to your project
+        - This process can also be done manually
+    - Eyes-Cypress is a plug-in itself, so needs to be required its plugin so that it can be loaded in our test project
+        - There is an optional file called eyes-index.d.ts created if using typescript
+        - index.js in both plugins and support will be automatically updated with imports
+    - In order to use Applitools an API key is needed and then has to exported
+        - export APPLITOOLS_API_KEY=[your API key]
+    - To run then use the following command
+        - npx cypress open
+    -
